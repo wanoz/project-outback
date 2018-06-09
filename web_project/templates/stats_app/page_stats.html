@@ -1,0 +1,72 @@
+{% extends "base.html" %} 
+
+{% block nav_bar %}
+<div class="d-flex justify-content-center">
+    <div class="d-flex flex-row">
+        <div class="p-2">
+            <a href="{% url 'search:page_search' %}" style="padding-right: 10px; color: white;">Find meal</a>
+        </div>
+        <div class="p-2">
+            <a href="{% url 'contact:page_feedback' %}" style="padding-left: 10px; padding-right: 10px; color: white;">Contact</a>
+        </div>
+        <div class="p-2">
+            <a href="#" style="padding-left: 10px; color: white;">Partner</a>
+        </div>
+    </div>
+</div>
+{% endblock %} 
+
+<!-- Change background colour of base html section -->
+{% block b1_bg_css %}
+bg_lgreen
+{% endblock %}
+
+{% block b1%}
+<div class="container b1_p2_style bg_lgreen medium_top_spacing">
+    <div class="row bg_lgreen">
+        <div class="col-1 col-lg-2"></div>
+        <div class="col-10 col-lg-8">
+            <p class="generic_font_heading center_content">Recent search activity</p>
+            <div class="d-flex justify-content-center">
+                <div class="d-flex flex-row">
+                    <div class="p-2">
+                        {% if usage_stats_key %}
+                            {% for stats in usage_stats_key %}   
+                                <table>
+                                    <tr>
+                                        <td class="table_category_font xsmall_top_spacing">Time</td>
+                                        <td class="table_value_font xsmall_top_spacing medium_left_spacing">{{ stats.search_time }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table_category_font xsmall_top_spacing">Date</td>
+                                        <td class="table_value_font xsmall_top_spacing medium_left_spacing">{{ stats.search_date }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table_category_font xsmall_top_spacing">Meat</td>
+                                        <td class="table_value_font xsmall_top_spacing medium_left_spacing">{{ stats.meat_1_last }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table_category_font xsmall_top_spacing">Vegetable</td>
+                                        <td class="table_value_font xsmall_top_spacing medium_left_spacing">{{ stats.veggie_1_last }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table_category_font xsmall_top_spacing">Carbs</td>
+                                        <td class="table_value_font xsmall_top_spacing medium_left_spacing">{{ stats.carbs_1_last }}</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table_category_font xsmall_top_spacing">Dairy</td>
+                                        <td class="table_value_font xsmall_top_spacing medium_left_spacing">{{ stats.dairy_1_last }}</td>
+                                    </tr>
+                                </table>
+                            {% endfor %}
+                        {% else %}
+                            <p class="table_category_font xsmall_top_spacing">No records found!</p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-1 col-lg-2"></div>
+    </div>
+</div>
+{% endblock %}

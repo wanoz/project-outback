@@ -1,0 +1,384 @@
+/* Background styling */
+.bg_green{
+    background-color: rgb(75, 161, 89);
+}
+
+.bg_lgreen{
+    /* background-color: rgb(232, 241, 223); */
+    background-color: rgb(237, 241, 236);
+}
+
+.bg_lbrown{
+    background-color: rgb(182, 131, 108);
+}
+
+.bg_lyellow{
+    background-color: rgb(248, 248, 222);
+}
+
+.nav_pills_style{
+    background-color: rgb(221, 142, 142) !important;
+}
+
+/* Grid styling */
+.row_style{
+    height: 50px;
+}
+
+
+/* Text styling */
+.center_content{
+    text-align: center;
+}
+
+.budget_font{
+    font-size: 22px;
+    /* color: rgb(160, 95, 65); */
+    color: rgb(214, 95, 80);
+    font-weight: bold;
+}
+
+.alert_font{
+    font-size: 16px;
+}
+
+.step1_font{
+    font-size: 22px;
+    /* font-family: "Titillium Web", sans-serif; */
+    /* font-family: 'Patua One', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'ABeeZee', sans-serif; */
+    /* font-family: 'Spinnaker', sans-serif; */
+    font-family: 'Secular One', sans-serif;
+    /* color: rgb(160, 95, 65); */
+    color: rgb(214, 95, 80);
+}
+
+.step2_font{
+    font-size: 22px;
+    /* font-family: "Titillium Web", sans-serif; */
+    /* font-family: 'Patua One', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'ABeeZee', sans-serif; */
+    /* font-family: 'Spinnaker', sans-serif; */
+    font-family: 'Secular One', sans-serif;
+    /* color: rgb(160, 95, 65); */
+    color: rgb(214, 95, 80);
+}
+
+.step3_font{
+    font-size: 22px;
+    /* font-family: "Titillium Web", sans-serif; */
+    /* font-family: 'Patua One', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'ABeeZee', sans-serif; */
+    /* font-family: 'Spinnaker', sans-serif; */
+    font-family: 'Secular One', sans-serif;
+    /* color: rgb(160, 95, 65); */
+    color: rgb(214, 95, 80);
+}
+
+.generic_font{
+    /* font-family: "Titillium Web", sans-serif; */
+    /* font-family: 'Patua One', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* /* font-family: 'ABeeZee', sans-serif; */
+    /* font-family: 'Spinnaker', sans-serif; */
+    font-family: 'Secular One', sans-serif; */
+}
+
+.generic_font_heading{
+    /* font-family: "Titillium Web", sans-serif; */
+    /* font-family: 'Patua One', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* /* font-family: 'ABeeZee', sans-serif; */
+    /* font-family: 'Spinnaker', sans-serif; */
+    font-family: 'Secular One', sans-serif;
+    font-size: 25px;
+    /* color: rgb(160, 95, 65); */
+    color: rgb(214, 95, 80);
+}
+
+.table_category_font{
+    font-family: 'Secular One', sans-serif;
+    font-size: 18px;
+    /* color: rgb(212, 105, 91); */
+    color: rgb(214, 95, 80);
+}
+
+.table_value_font{
+    font-family: 'Secular One', sans-serif;
+    font-size: 18px;
+    /* color: rgb(212, 105, 91); */
+    color: rgb(214, 95, 80);
+}
+
+.full_width{
+    width: 100%;
+}
+
+/* Navigation components styling */
+.navbar a {
+    color: white !important;
+}
+
+.nav_style{
+    background-color: rgb(75, 161, 89);
+    font-family: 'Secular One', sans-serif;
+}
+
+.nav-pills-step1 > li > a.active {
+    color: white !important;
+    /* background-color: rgb(207, 122, 101) !important; */
+    background-color: rgb(214, 95, 80) !important;
+    /* background-color: rgb(167, 107, 79) !important; */
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.nav-pills-step1 > li > a {
+    /* color: rgb(207, 122, 101);
+    border-bottom: 2px solid rgb(207, 122, 101); */
+    /* color: rgb(167, 107, 79); */
+    color: rgb(214, 95, 80);
+    /* border-bottom: 2px solid rgb(167, 107, 79); */
+    border-bottom: 2px solid rgb(214, 95, 80) !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.nav-pills-step2 > li > a.active {
+    color: white !important;
+    /* background-color: rgb(207, 122, 101) !important; */
+    /* background-color: rgb(167, 107, 79) !important; */
+    background-color: rgb(214, 95, 80) !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.nav-pills-step2 > li > a {
+    /* color: rgb(207, 122, 101);
+    border-bottom: 2px solid rgb(207, 122, 101); */
+    /* color: rgb(167, 107, 79); */
+    color: rgb(214, 95, 80);
+    /* border-bottom: 2px solid rgb(167, 107, 79); */
+    border-bottom: 2px solid rgb(214, 95, 80);
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.nav-pills{
+    /* background-color: rgb(232, 241, 223); */
+    background-color: rgb(237, 241, 236) !important;
+}
+
+/* Banner styles */
+.banner_font{
+    padding-top: 20px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: bottom;
+    /* font-family: "Titillium Web", sans-serif; */
+    /* font-family: 'Patua One', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'ABeeZee', sans-serif; */
+    /* font-family: 'Spinnaker', sans-serif; */
+    /* font-family: 'Secular One', sans-serif; */ 
+    font-family: 'Bree Serif', serif;
+}
+
+.banner_area{
+    height: 120px;
+}
+
+.user_banner_font{
+    padding-top: 30px;
+    color: white;
+    font-size: 18px;
+    /* font-weight: bold; */
+    text-align: bottom;
+    /* font-family: "Titillium Web", sans-serif; */
+    /* font-family: 'Patua One', cursive; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'ABeeZee', sans-serif; */
+    /* font-family: 'Spinnaker', sans-serif; */
+    font-family: 'Secular One', sans-serif; 
+    /* font-family: 'Bree Serif', serif; */
+}
+
+.user_banner_area{
+    height: 90px;
+}
+
+/* Button styling */
+.btn-custom{
+    height: 50px !important;
+    width: 100% !important;
+    border-radius: 50px !important;
+    font-size: 90% !important;
+}
+
+.btn-submit{
+    height: 45px !important;
+    width: 180px !important;
+    border-radius: 8px !important;
+    font-size: 90% !important;
+    color: white;
+    background-color: rgb(75, 161, 89);
+    border: 1px solid rgb(3, 97, 3) !important;
+}
+
+.btn-generic{
+    height: 45px !important;
+    width: 180px !important;
+    border-radius: 8px !important;
+    font-size: 90% !important;
+    color: white;
+    background-color: rgb(75, 161, 89);
+    border: 1px solid rgb(3, 97, 3) !important;
+}
+
+.btn-search{
+    height: 45px !important;
+    width: 300px !important;
+    border-radius: 8px !important;
+    font-size: 90% !important;
+    color: white;
+    background-color: rgb(75, 161, 89);
+    border: 1px solid rgb(1, 63, 1) !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.button_red_faded{
+    /* background-color: rgb(232, 241, 223) !important; */
+    background-color: rgb(237, 241, 236) !important;
+    color: rgb(216, 144, 135);
+    border: 2px solid rgb(216, 144, 135) !important;
+}
+
+.button_red_selected{
+    background-color: rgb(214, 153, 142) !important;
+    border: 3px solid rgb(214, 95, 80) !important;
+    color: white;
+}
+
+/* Block tag styling (Django) */
+.b_step1_style{
+    padding-top: 30px;
+    height: 80px;
+}
+.b1_style{
+    font-size: 18px;
+    color: rgb(3, 3, 102);
+    /* height: 200px; */
+}
+
+.b2_style{
+    font-size: 18px;
+    color: rgb(3, 3, 102);
+    /* height: 400px; */
+}
+
+.b1_p2_style{
+    font-size: 18px;
+    height: 380px;
+}
+
+.b1_login_style{
+    font-size: 18px;
+    height: 550px;
+}
+
+/* Alignment styling */
+.xsmall_top_spacing{
+    padding-top: 10px;
+}
+.small_top_spacing{
+    padding-top: 20px;
+}
+
+.medium_top_spacing{
+    padding-top: 30px;
+}
+
+.large_top_spacing{
+    padding-top: 50px;
+}
+
+.xlarge_top_spacing{
+    padding-top: 80px;
+}
+
+.small_left_spacing{
+    padding-left: 5px;
+}
+
+.medium_left_spacing{
+    padding-left: 40px;
+}
+
+.b1_min_height{
+    min-height: 250px !important;
+}
+
+.b2_min_height{
+    min-height: 300px !important;
+}
+
+.b3_min_height{
+    min-height: 200px !important;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider{
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    height: 25px; /* Specified height */
+    border-radius: 20px;
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover{
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use webkit (Chrome, Opera, Safari, Edge) and moz (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 50px; /* Set a specific slider handle width */
+    height: 50px; /* Slider handle height */
+    border-radius: 50%; 
+    /* background: rgb(75, 161, 89); */
+    background: rgb(214, 153, 142) !important;
+    border: 3px solid rgb(214, 95, 80) !important;
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb{
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    border-radius: 50%; 
+    /* background: #4CAF50; */
+    background: rgb(214, 153, 142) !important;
+    border: 3px solid rgb(214, 95, 80) !important;
+    cursor: pointer; /* Cursor on hover */
+}

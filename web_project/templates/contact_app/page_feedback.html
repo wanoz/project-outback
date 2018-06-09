@@ -1,0 +1,59 @@
+{% extends "base.html" %} 
+
+{% block nav_bar %}
+<div class="d-flex justify-content-center">
+    <div class="d-flex flex-row">
+        <div class="p-2">
+            <a href="{% url 'search:page_search' %}" style="padding-right: 10px; color: white;">Find meal</a>
+        </div>
+        <div class="p-2">
+            <a href="#" style="padding-left: 10px; color: white;">Partner</a>
+        </div>
+    </div>
+</div>
+{% endblock %} 
+
+<!-- Change background colour of base html section -->
+{% block b1_bg_css %}
+bg_lgreen
+{% endblock %}
+
+{% block b1%}
+<div class="container b1_p2_style bg_lgreen">
+    <div class="row bg_lgreen">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <form method="POST">
+                <p class="large_top_spacing">We would love to get your opinion on this service.</p>
+                <div class="form-group">
+                    {% csrf_token %}
+                    {{ form_entry_key.botcatcher }}
+                    {% if form_entry_key.errors %}
+                        {% for field, error in form_entry_key.errors.items %}
+                            <div class="alert alert-danger alert_font">
+                                {{ error | striptags }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                    
+                    {{ form_entry_key.feedback }}
+                    <div class="large_top_spacing">
+                        <span>{{ form_entry_key.recommendation.label }}</span>
+                        <span class="small_left_spacing">{{ form_entry_key.recommendation }}</span>
+                    </div>
+                    <div class="large_top_spacing">
+                        <p>{{ form_entry_key.email.label }}</p>
+                        <div>{{ form_entry_key.email }}</div>
+                    </div>
+                </div>
+                <div class="medium_top_spacing center_content">
+                    <p></p>
+                    <button type="submit" class="btn btn-submit large_top_spacing">Send feedback</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-1"></div>
+    </div>
+</div>
+
+{% endblock %}

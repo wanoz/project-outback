@@ -1,0 +1,86 @@
+{% extends "base.html" %} 
+
+{% block nav_bar %}
+<div class="d-flex justify-content-center">
+    <div class="d-flex flex-row">
+        <div class="p-2">
+            <a href="{% url 'search:page_search' %}" style="padding-right: 10px; color: white;">Find meal</a>
+        </div>
+        <div class="p-2">
+            <a href="#" style="padding-left: 10px; color: white;">Partner</a>
+        </div>
+    </div>
+</div>
+{% endblock %} 
+
+<!-- Change background colour of base html section -->
+{% block b1_bg_css %}
+bg_lgreen
+{% endblock %}
+
+{% block b1%}
+<div class="container b1_login_style bg_lgreen">
+    <div class="row bg_lgreen">
+        <div class="col-1 col-md-2 col-lg-3"></div>
+        <div class="col-10 col-md-8 col-lg-6">
+            <form method="POST">
+                <p class="large_top_spacing center_content" style="font-size: 24px; padding-bottom: 5px;">Create profile</p>
+                <div class="form-group">
+                    {% csrf_token %}
+                    {{ user_profile_form_key.botcatcher }}
+                    {% if user_basic_form_key.errors %}
+                        {% for field, error in user_basic_form_key.errors.items %}
+                            <div class="alert alert-danger alert_font">
+                                {{ error | striptags }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                    {% if user_profile_form_key.errors %}
+                        {% for field, error in user_profile_form_key.errors.items %}
+                            <div class="alert alert-danger alert_font">
+                                {{ error | striptags }}
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+
+                    <div class="small_top_spacing">
+                        <p>{{ user_basic_form_key.username.label }}</p>
+                        <div>{{ user_basic_form_key.username }}</div>
+                    </div>
+
+                    <div class="small_top_spacing">
+                        <p>{{ user_basic_form_key.password.label }}</p>
+                        <div>{{ user_basic_form_key.password }}</div>
+                    </div>
+
+                    <div class="small_top_spacing">
+                        <p>{{ user_basic_form_key.email.label }}</p>
+                        <div>{{ user_basic_form_key.email }}</div>
+                    </div>
+
+                    <div class="small_top_spacing">
+                        <p>{{ user_profile_form_key.food_allergy.label }}</p>
+                        <div>{{ user_profile_form_key.food_allergy }}</div>
+                    </div>
+
+                    <div class="small_top_spacing">
+                        <p>{{ user_profile_form_key.vegetarian.label }}</p>
+                        <div>{{ user_profile_form_key.vegetarian }}</div>
+                    </div>
+                </div>
+
+                <div class="medium_top_spacing center_content">
+                    <p></p>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="p-2">
+                            <button type="submit" name="register-button" class="btn btn-submit large_top_spacing">Register</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-1 col-md-2 col-lg-3"></div>
+    </div>
+</div>
+
+{% endblock %}

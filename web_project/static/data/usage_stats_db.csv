@@ -1,0 +1,2 @@
+user_name,search_time,search_date,search_frequency,search_time_mean,search_time_stddev,search_date_interval_mean,search_date_interval_stddev,meat_1_last,meat_2_last,meat_3_last,veggie_1_last,veggie_2_last,veggie_3_last,carbs_1_last,carbs_2_last,dairy_1_last,dairy_2_last,dairy_3_last,gluten_free_last,halal_last,flavouring_last,restaurant_ID_last
+William,14:28:30,28/12/2017,2,14:28:30,0,24,0,N/A,N/A,N/A,Garlic,N/A,N/A,Turkish bread,N/A,N/A,N/A,N/A,No,Yes,Garlic & Herbs,7

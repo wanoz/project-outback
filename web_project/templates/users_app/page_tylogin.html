@@ -1,0 +1,27 @@
+{% extends "base.html" %} 
+
+{% block nav_bar %}
+<div class="d-flex justify-content-center">
+    <div class="d-flex flex-row">
+        <div class="p-2">
+            <a href="{% url 'search:page_search' %}" style="padding-right: 10px; color: white;">Find meal</a>
+        </div>
+        <div class="p-2">
+            <a href="#" style="padding-left: 10px; color: white;">Partner</a>
+        </div>
+    </div>
+</div>
+{% endblock %} 
+
+<!-- Change background colour of base html section -->
+{% block b1_bg_css %}
+bg_lgreen
+{% endblock %}
+
+{% block b1%}
+<div class="container b1_p2_style bg_lgreen medium_top_spacing center_content">
+   <h4>Thanks for registering!</h4>
+   <p class="medium_top_spacing"></p>
+   <a class="btn btn-submit" href="{% url 'users:page_login' %}">Return</a>
+</div>
+{% endblock %}

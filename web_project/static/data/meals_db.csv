@@ -1,0 +1,120 @@
+meal_name,price,hot_or_cold,cuisine_type,meal_category,cooking_method,meat_1,meat_2,meat_3,carbs_1,carbs_2,veggie_1,veggie_2,veggie_3,dairy_1,dairy_2,dairy_3,dairy_4,gluten_free,halal,flavouring,restaurant_ID
+Garlic Bread,$4.50,Hot,Mediterranean,Entree,Baked,NA,NA,NA,Turkish bread,NA,Garlic,NA,NA,NA,NA,NA,NA,No,Yes,Garlic & Herbs,7
+Cheese Garlic Bread,$8.50,Hot,Mediterranean,Entree,Baked,NA,NA,NA,Turkish bread,NA,Garlic,NA,NA,Cheese,NA,NA,NA,No,Yes,Garlic & Herbs,7
+Za'atar,$9.50,Cold,Mediterranean,Entree,Baked,NA,NA,NA,Bread,NA,Oregano,NA,NA,NA,NA,NA,NA,No,Yes,Oregano,7
+Sahara Bruschetta,$9.50,Cold,Mediterranean,Entree,Marinated,NA,NA,NA,Bread,NA,Tomatoes,Onion,NA,Feta,NA,NA,NA,No,Yes,Basil & Olive oil,7
+Bowl of hot chips,$7.00,Hot,Mediterranean,Entree,Fried,NA,NA,NA,Starch,NA,Potatoes,NA,NA,NA,NA,NA,NA,No,Yes,Salt,7
+Olives,$7.50,Cold,Mediterranean,Entree,Marinated,NA,NA,NA,Bread,NA,Olives,Garlic,NA,NA,NA,NA,NA,No,Yes,Garlic & Herbs,7
+Wedges,$9.00,Hot,Mediterranean,Entree,Fried,NA,NA,NA,Starch,NA,Potatoes,NA,NA,Sour cream,NA,NA,NA,No,Yes,Sweet Chilli,7
+Soup of the day,$10.50,Hot,Mediterranean,Entree,Soup,TBA,TBA,NA,Turkish bread,NA,TBA,TBA,NA,TBA,NA,NA,NA,TBA,Yes,TBA,7
+Hummus,$9.50,Cold,Mediterranean,Entree,Purred,NA,NA,NA,Turkish bread,NA,Chickpeas,Tahini,NA,NA,NA,NA,NA,No,Yes,Garlic & Herbs,7
+Jajik,$9.50,Cold,Mediterranean,Entree,Purred,NA,NA,NA,Turkish bread,NA,Cucumber,NA,NA,Yoghurt,NA,NA,NA,No,Yes,Mint & Garlic,7
+Babaganoush,$10.50,Cold,Mediterranean,Entree,Chargrilled,NA,NA,NA,Turkish bread,NA,Eggplant,Tahini,NA,Yoghurt,NA,NA,NA,No,Yes,Garlic,7
+Zucchini,$9.50,Cold,Mediterranean,Entree,Purred,NA,NA,NA,Turkish bread,NA,Zucchini,Walnuts,NA,NA,NA,NA,NA,No,Yes,Dill,7
+Beetroot,$9.50,Cold,Mediterranean,Entree,Purred,NA,NA,NA,Turkish bread,NA,Beetroot,Garlic,NA,Yoghurt,NA,NA,NA,No,Yes,Garlic,7
+Chilli,$10.50,Cold,Mediterranean,Entree,Chargrilled,NA,NA,NA,Turkish bread,NA,Red Peepers,NA,NA,Yoghurt,NA,NA,NA,No,Yes,Chilli,7
+Vine leaves & cabbage,$15.50,Cold,Mediterranean,Sides,Marinated,NA,NA,NA,Rice,NA,Vine leaves,Cabbage,NA,Yoghurt,NA,NA,NA,No,Yes,Sour,7
+Salt & pepper squid,$15.50,Hot,Mediterranean,Sides,Fried,Squid,NA,NA,Starch,NA,Potatoes,Mixed,NA,NA,NA,NA,NA,No,Yes,Salt n pepper,7
+Haloumi Stack,$17.50,Hot,Mediterranean,Sides,Chargrilled,NA,NA,NA,NA,NA,Mixed,Mixed,NA,Haloumi,NA,NA,NA,No,Yes,Salt,7
+Chilli Prawns,$17.50,Hot,Mediterranean,Sides,Braised,Prawns,NA,NA,Bread,NA,Garlic,Chilli,NA,NA,NA,NA,NA,No,Yes,Chilli,7
+Imam Bayildi,$17.50,Hot,Mediterranean,Sides,Fried,NA,NA,NA,NA,NA,Eggplant,Mixed,NA,Yoghurt,NA,NA,NA,No,Yes,Garlic,7
+Oven baked mushrooms,$17.50,Hot,Mediterranean,Sides,Baked,NA,NA,NA,NA,NA,Mushroom,NA,NA,Fetta,Mozzarella,Parmesan,NA,No,Yes,Cheesy,7
+Sigara Borek,$17.50,Hot,Mediterranean,Sides,Baked,NA,NA,NA,Filo pastry,NA,Spinach,Potatoes,NA,Fetta,NA,NA,NA,No,Yes,Chilli,7
+Labne,$15.50,Hot,Mediterranean,Sides,Purred,NA,NA,NA,Bread,NA,NA,NA,NA,Butter,NA,NA,NA,No,Yes,Garlic,7
+Falafel,$14.50,Hot,Mediterranean,Sides,Fried,NA,NA,NA,Starch,NA,Potatoes,NA,NA,NA,NA,NA,NA,No,Yes,Garlic,7
+Cabbage Salad,$13.50,Cold,Mediterranean,Salad,Uncooked,NA,NA,NA,NA,NA,Cabbage,Lemon,NA,NA,NA,NA,NA,Yes,Yes,Olive & Lemon,7
+Tabouli,$14.00,Cold,Mediterranean,Salad,Uncooked,NA,NA,NA,Wheat,NA,Parsley,Tomato,NA,NA,NA,NA,NA,No,Yes,Onion & Lemon,7
+Rocket Salad,$15.00,Cold,Mediterranean,Salad,Uncooked,NA,NA,NA,Walnuts,NA,Rocket,Pomegranate,NA,Parmesan,NA,NA,NA,No,Yes,Pomegranate & Olive,7
+Coban Salad,$15.00,Cold,Mediterranean,Salad,Uncooked,NA,NA,NA,NA,NA,Tomatoes,Cucumber,NA,NA,NA,NA,NA,Yes,Yes,Chilli,7
+Chicken Causar Salad,$17.00,Cold,Mediterranean,Salad,Grilled,Chicken,Egg,NA,Croutons,NA,Lettuce,NA,NA,Parmesan,NA,NA,NA,No,Yes,Caesar,7
+Chargrilled Lamb Salad,$18.00,Cold,Mediterranean,Salad,Grilled,Lamb,NA,NA,NA,NA,Lettuce,Tomato,NA,Yoghurt,NA,NA,NA,No,Yes,Yoghurt,7
+Chilli Prawn Salad,$18.00,Cold,Mediterranean,Salad,Grilled,Prawns,NA,NA,NA,NA,Mixed,Mixed,NA,NA,NA,NA,NA,Yes,Yes,Salt,7
+Sahara's Chilli Nuts,$17.00,Cold,Mediterranean,Salad,Uncooked,NA,NA,NA,Walnuts,NA,Mixed Peppers,Cucumber,NA,NA,NA,NA,NA,No,Yes,Pomegranate,7
+Cheese,$16.00,Hot,Mediterranean,Main,Baked,NA,NA,NA,Bread,NA,NA,NA,NA,Mozzarella,Feta,Tasty,NA,No,Yes,Cheesy,7
+Cheese & Tomato,$16.00,Hot,Mediterranean,Main,Baked,NA,NA,NA,Bread,NA,Tomatoes,NA,NA,Mozzarella,NA,NA,NA,No,Yes,Herbs,7
+Cheese Mushroom & Fresh Chilli,$17.00,Hot,Mediterranean,Main,Baked,NA,NA,NA,Bread,NA,Mushroom,Chilli,NA,Mozzarella,NA,NA,NA,No,Yes,Chilli,7
+Minced Lamb,$18.00,Hot,Mediterranean,Main,Baked,Lamb,NA,NA,Bread,NA,Capsicum,Onion,NA,NA,NA,NA,NA,No,Yes,Herbs,7
+Spinach & Feta,$17.00,Hot,Mediterranean,Main,Baked,NA,NA,NA,Bread,NA,Spinach,NA,NA,Feta,Mozzarella,NA,NA,No,Yes,Salt,7
+Vegetarian,$18.00,Hot,Mediterranean,Main,Baked,NA,NA,NA,Bread,NA,Eggplant,Zucchini,NA,Feta,Mozzarella,NA,NA,No,Yes,Salt,7
+Sucuk & Egg,$19.00,Hot,Mediterranean,Main,Baked,Turkish sausage,Egg,NA,Bread,NA,NA,NA,NA,Mozzarella,NA,NA,NA,No,Yes,Chilli,7
+Chicken & Mushroom,$18.00,Hot,Mediterranean,Main,Baked,Chicken,NA,NA,Bread,NA,Mushroom,Capsicum,NA,Mozzarella,NA,NA,NA,No,Yes,Herbs,7
+Prawns,$19.50,Hot,Mediterranean,Main,Baked,Prawns,NA,NA,Bread,NA,Chilli,NA,NA,Mozzarella,NA,NA,NA,No,Yes,Garlic,7
+Sahara Special,$19.00,Hot,Mediterranean,Main,Baked,Turkish sausage,Egg,NA,Bread,NA,Spinach,NA,NA,Mozzarella,NA,NA,NA,No,Yes,Herbs,7
+Adana Shish,$25.50,Hot,Mediterranean,Main,Chargrilled,Lamb,NA,NA,Bread & Rice,NA,Mixed,Mixed,NA,NA,NA,NA,NA,No,Yes,Charcoal,7
+Chicken Shish,$25.50,Hot,Mediterranean,Main,Chargrilled,Chicken,NA,NA,Bread & Rice,NA,Mixed,Mixed,NA,NA,NA,NA,NA,No,Yes,Charcoal,7
+Lamb Shish,$26.50,Hot,Mediterranean,Main,Chargrilled,Lamb,NA,NA,Bread & Rice,NA,Mixed,Mixed,NA,NA,NA,NA,NA,No,Yes,Charcoal,7
+Chargrill,$29.50,Hot,Mediterranean,Main,Chargrilled,Lamb,Chicken,NA,Bread & Rice,NA,Mixed,Mixed,NA,NA,NA,NA,NA,No,Yes,Charcoal,7
+Lamb Cutlets,$29.50,Hot,Mediterranean,Main,Grilled,Lamb,NA,NA,Starch,NA,Potatoes,Mixed,NA,NA,NA,NA,NA,No,Yes,Salt,7
+1KG Beef Ribs,$29.50,Hot,Mediterranean,Main,Grilled,Beef,NA,NA,Starch,NA,Potatoes,Mixed,NA,NA,NA,NA,NA,No,Yes,Salt,7
+300G Eye Fillet Steak,$29.50,Hot,Mediterranean,Main,Grilled,Beef,NA,NA,Starch,NA,Potatoes,Mixed,NA,NA,NA,NA,NA,No,Yes,Pepper,7
+Mixed Grill,$29.50,Hot,Mediterranean,Main,Grilled,Lamb,Chicken,NA,Bread & Rice,NA,Mixed,Mixed,NA,NA,NA,NA,NA,No,Yes,Charcoal,7
+Barramundi,$25.50,Hot,Mediterranean,Main,Grilled,Fish,NA,NA,Starch,NA,Potatoes,Mixed,NA,NA,NA,NA,NA,No,Yes,Salt,7
+Chicken Sahara,$25.50,Hot,Mediterranean,Main,Grilled,Chicken,NA,NA,Starch,NA,Potatoes,Mixed,NA,Cream,NA,NA,NA,No,Yes,Orange,7
+Salmon Fillet,$27.50,Hot,Mediterranean,Main,Grilled,Fish,NA,NA,Starch,NA,Potatoes,Mixed,NA,Cream,NA,NA,NA,No,Yes,Mustard,7
+Mushroom Chicken,$26.50,Hot,Mediterranean,Main,Grilled,Chicken,NA,NA,Starch,NA,Potatoes,Mushroom,NA,Cream,NA,NA,NA,No,Yes,Mushroom,7
+Garlic Chicken,$26.50,Hot,Mediterranean,Main,Grilled,Chicken,NA,NA,Starch,NA,Potatoes,Mixed,NA,Cream,NA,NA,NA,No,Yes,Garlic,7
+Slow Cooked Lamb Shanks,$28.50,Hot,Mediterranean,Main,Braised,Lamb,NA,NA,Rice,NA,Mixed,Mixed,NA,NA,NA,NA,NA,No,Yes,Salt,7
+Iskender,$22.50,Hot,Mediterranean,Main,Grilled,Lamb,NA,NA,Bread,NA,Mixed,Mixed,NA,Yoghurt,NA,NA,NA,No,Yes,Garlic & Yoghurt,7
+Guvec,$24.50,Hot,Mediterranean,Main,Stewed,Mixed,NA,NA,Rice,NA,Eggplant,Potatoes,NA,NA,NA,NA,NA,No,Yes,Garlic,7
+Sac Kavurma,$26.50,Hot,Mediterranean,Main,Stirfried,Lamb,NA,NA,Rice,NA,Capsicum,Mushroom,NA,NA,NA,NA,NA,No,Yes,Salt,7
+Nuggets and Chips,$10.50,Hot,Mediterranean,Main,Fried,Chicken,NA,NA,Starch,NA,Potatoes,NA,NA,NA,NA,NA,NA,No,Yes,Tomato,7
+Italian Prawns,$15.00,Hot,Italian,Entree,Pan fried,Prawns,NA,NA,NA,NA,Garlic,Chilli,NA,Cream,NA,NA,NA,No,No,Tomato,2
+Garlic Prawns,$15.00,Hot,Italian,Entree,Pan fried,Prawns,NA,NA,NA,NA,Garlic,NA,NA,Na,NA,NA,NA,No,No,Garlic & Herbs,2
+Trangles,$12.00,Hot,Italian,Entree,Baked,NA,NA,NA,Filo pastry,NA,Spinach,NA,NA,Feta,NA,NA,NA,No,No,Cheesy,2
+Bruschetta,$8.00,Cold,Italian,Entree,Cured,Bruchetta,NA,NA,NA,NA,Tomatoes,Basil,NA,Na,NA,NA,NA,No,No,Salty,2
+Italian Salad,$6.00,Cold,Italian,Sides,Uncooked,NA,NA,NA,NA,NA,Tomatoes,Lettuce,NA,Na,NA,NA,NA,Yes,No,Italian,2
+Greek Salad,$8.00,Cold,Italian,Sides,Uncooked,NA,NA,NA,NA,NA,Tomatoes,Lettuce,NA,Na,Feta,NA,NA,No,No,Italian,2
+Garlic Bread,$2.00,Hot,Italian,Sides,Baked,NA,NA,NA,Bread,NA,Garlic,NA,NA,Na,NA,NA,NA,No,No,Garlic,2
+Prawn Pizzette,$14.00,Hot,Italian,Sides,Baked,Prawns,NA,NA,Pizza Dough,NA,Garlic,Oregano,NA,Na,NA,NA,NA,No,No,Garlic & Herbs,2
+Prosciuto Pizzette,$14.00,Hot,Italian,Sides,Baked,Prosciuto,NA,NA,Pizza Dough,NA,Tomatoes,Basil,NA,Ricotta,NA,NA,NA,No,No,Tomato,2
+Quattro Formaggi Pizzette,$14.00,Hot,Italian,Sides,Baked,NA,NA,NA,Pizza Dough,NA,NA,NA,NA,Gorgonzola,Boconccini,Pecorino,Provolone,No,No,Cheesy,2
+Chocolate Gelato,$5.00,Cold,Italian,Dessert,Frozen,NA,NA,NA,Sugar,NA,NA,NA,NA,Milk,NA,NA,NA,No,No,Chocolate,2
+Tiramisu Gelato,$5.00,Cold,Italian,Dessert,Frozen,NA,NA,NA,Sugar,NA,NA,NA,NA,Milk,NA,NA,NA,No,No,Tiramisu,2
+Lemon Gelato,$5.00,Cold,Italian,Dessert,Frozen,NA,NA,NA,Sugar,NA,NA,NA,NA,Milk,NA,NA,NA,No,No,Lemon,2
+Vanilla Gelato,$5.00,Cold,Italian,Dessert,Frozen,NA,NA,NA,Sugar,NA,NA,NA,NA,Milk,NA,NA,NA,No,No,Vanilla Bean,2
+Pistachio Gelato,$5.00,Cold,Italian,Dessert,Frozen,NA,NA,NA,Sugar,NA,NA,NA,NA,Milk,NA,NA,NA,No,No,Pistachio,2
+Strawberry Gelato,$5.00,Cold,Italian,Dessert,Frozen,NA,NA,NA,Sugar,NA,NA,NA,NA,Milk,NA,NA,NA,No,No,Strawberry,2
+Mango Gelato,$5.00,Cold,Italian,Dessert,Frozen,NA,NA,NA,Sugar,NA,NA,NA,NA,Milk,NA,NA,NA,No,No,Mango,2
+Home Made Tiramisu,$8.00,Cold,Italian,Dessert,Cake,NA,NA,NA,Biscuit,Sponge Finger,NA,NA,NA,Cream,NA,NA,NA,No,No,Coffee,2
+Assortment Cakes,$8.00,Cold,Italian,Dessert,Cake,NA,NA,NA,Sugar,Flour,NA,NA,NA,Cream,NA,NA,NA,No,No,Sweet,2
+Coffee,$3.50,Hot,Italian,Beverage,Brewed,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,No,No,Coffee,2
+Hot Chocolate,$3.50,Hot,Italian,Beverage,Brewed,NA,NA,NA,NA,NA,NA,NA,NA,Milk,NA,NA,NA,No,No,Chocolate,2
+Tea,$3.00,Hot,Italian,Beverage,Brewed,NA,NA,NA,NA,NA,NA,NA,NA,Milk,NA,NA,NA,No,No,Black,2
+Spagetti Bolognese,$16.00,Hot,Italian,Pasta,Stewed,Beef,NA,NA,Spagetti,NA,Tomatoes,Parsley,NA,NA,NA,NA,NA,No,No,Tomato,2
+Penne Bolognese,$16.00,Hot,Italian,Pasta,Stewed,Beef,NA,NA,Penne,NA,Tomatoes,Parsley,NA,NA,NA,NA,NA,No,No,Tomato,2
+Fettuccine Bolognese,$16.00,Hot,Italian,Pasta,Stewed,Beef,NA,NA,Fettuccine,NA,Tomatoes,Parsley,NA,NA,NA,NA,NA,No,No,Tomato,2
+Gnochi Bolognese,$16.00,Hot,Italian,Pasta,Stewed,Beef,NA,NA,Gnochi,NA,Tomatoes,Parsley,NA,NA,NA,NA,NA,No,No,Tomato,2
+Spagetti Carbonara,$18.00,Hot,Italian,Pasta,Stewed,Bacon,Egg,NA,Spagetti,NA,Onion,Herbs,NA,Cream,NA,NA,NA,No,No,Cream,2
+Penne Carbonara,$18.00,Hot,Italian,Pasta,Stewed,Bacon,Egg,NA,Penne,NA,Onion,Herbs,NA,Cream,NA,NA,NA,No,No,Cream,2
+Fettuccine Carbonara,$18.00,Hot,Italian,Pasta,Stewed,Bacon,Egg,NA,Fettuccine,NA,Onion,Herbs,NA,Cream,NA,NA,NA,No,No,Cream,2
+Gnochi Carbonara,$18.00,Hot,Italian,Pasta,Stewed,Bacon,Egg,NA,Gnochi,NA,Onion,Herbs,NA,Cream,NA,NA,NA,No,No,Cream,2
+Spagetti Napolitana,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Spagetti,NA,Onion,Tomato,Garlic,NA,NA,NA,NA,No,No,Tomato,2
+Penne Napolitana,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Penne,NA,Onion,Tomato,Garlic,NA,NA,NA,NA,No,No,Tomato,2
+Fettuccine Napolitana,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Fettuccine,NA,Onion,Tomato,Garlic,NA,NA,NA,NA,No,No,Tomato,2
+Gnochi Napolitana,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Gnochi,NA,Onion,Tomato,Garlic,NA,NA,NA,NA,No,No,Tomato,2
+Spagetti Pesto,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Spagetti,Pine nuts,Basil,Garlic,NA,Cream,NA,NA,NA,No,No,Pesto,2
+Penne Pesto,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Penne,Pine nuts,Basil,Garlic,NA,Cream,NA,NA,NA,No,No,Pesto,2
+Fettuccine Pesto,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Fettuccine,Pine nuts,Basil,Garlic,NA,Cream,NA,NA,NA,No,No,Pesto,2
+Gnochi Pesto,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Gnochi,Pine nuts,Basil,Garlic,NA,Cream,NA,NA,NA,No,No,Pesto,2
+Spagetti Boscaiola,$18.00,Hot,Italian,Pasta,Stewed,Bacon,NA,NA,Spagetti,NA,Mushroom,Garlic,Shellots,Cream,NA,NA,NA,No,No,Mushroom & Cream,2
+Penne Boscaiola,$18.00,Hot,Italian,Pasta,Stewed,Bacon,NA,NA,Penne,NA,Mushroom,Garlic,Shellots,Cream,NA,NA,NA,No,No,Mushroom & Cream,2
+Fettuccine Boscaiola,$18.00,Hot,Italian,Pasta,Stewed,Bacon,NA,NA,Fettuccine,NA,Mushroom,Garlic,Shellots,Cream,NA,NA,NA,No,No,Mushroom & Cream,2
+Gnochi Boscaiola,$18.00,Hot,Italian,Pasta,Stewed,Bacon,NA,NA,Gnochi,NA,Mushroom,Garlic,Shellots,Cream,NA,NA,NA,No,No,Mushroom & Cream,2
+Spagetti Alio & Olio with prawns,$24.00,Hot,Italian,Pasta,Stewed,Prawns,NA,NA,Spagetti,NA,Herbs,Chilli,NA,NA,NA,NA,NA,No,No,Italian,2
+Penne Alio & Olio with prawns,$24.00,Hot,Italian,Pasta,Stewed,Prawns,NA,NA,Penne,NA,Herbs,Chilli,NA,NA,NA,NA,NA,No,No,Italian,2
+Fettuccine Alio & Olio with prawns,$24.00,Hot,Italian,Pasta,Stewed,Prawns,NA,NA,Fettuccine,NA,Herbs,Chilli,NA,NA,NA,NA,NA,No,No,Italian,2
+Gnochi Alio & Olio with prawns,$24.00,Hot,Italian,Pasta,Stewed,Prawns,NA,NA,Gnochi,NA,Herbs,Chilli,NA,NA,NA,NA,NA,No,No,Italian,2
+Spagetti,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Spagetti,NA,Chilli,NA,NA,NA,NA,NA,NA,No,No,Italian,2
+Penne,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Penne,NA,Chilli,NA,NA,NA,NA,NA,NA,No,No,Italian,2
+Fettuccine,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Fettuccine,NA,Chilli,NA,NA,NA,NA,NA,NA,No,No,Italian,2
+Gnochi,$16.00,Hot,Italian,Pasta,Stewed,NA,NA,NA,Gnochi,NA,Chilli,NA,NA,NA,NA,NA,NA,No,No,Italian,2
+Minestrone Soup,$12.00,Hot,Italian,Soup,Boiled,NA,NA,NA,Starch,Beans,Carrots,Celery,Herbs,NA,NA,NA,NA,No,No,Herbs,2
+Chicken Schnitzel Napolitana,$22.00,Hot,Italian,Main,Fried,Chicken,NA,NA,Bread Crumbs,NA,Tomatoes,NA,NA,Parmesan,NA,NA,NA,No,No,Tomato,2
+Chicken Schnitzel Lemon,$20.00,Hot,Italian,Main,Fried,Chicken,NA,NA,Bread Crumbs,NA,Lemon,Mixed,NA,NA,NA,NA,NA,No,No,Lemon,2
+Osso Buco,$22.00,Hot,Italian,Main,Stewed,Beef,NA,NA,NA,NA,Carrots,Celery,Garlic,NA,NA,NA,NA,No,No,Red Wine,2
+Cielo Terra Mare,$25.00,Hot,Italian,Main,Fried,Sausage,Chicken,Prawns,Bread Crumbs,NA,NA,NA,NA,NA,NA,NA,NA,No,No,Italian,2
+Veal Pizzailoa,$24.00,Hot,Italian,Main,Fried,Veal,NA,NA,NA,NA,Basil,Garlic,Olive,NA,NA,NA,NA,No,No,Tomato,2
+Veal Funghi,$25.00,Hot,Italian,Main,Fried,Veal,NA,NA,NA,NA,Mushroom,Garlic,NA,Cream,NA,NA,NA,No,No,Sweet Liquor,2
+Tasmanian Smooth Dory,$25.00,Hot,Italian,Main,Pan fried,Dory,NA,NA,NA,NA,Lime,Lemon,Garlic,NA,NA,NA,NA,No,No,Lemon & Lime,2
+Italian Prawns,$25.00,Hot,Italian,Main,Pan fried,Prawns,NA,NA,NA,NA,Garlic,Olive,Chilli,Cream,NA,NA,NA,No,No,Tomato,2
+Garlic Prawns,$25.00,Hot,Italian,Main,Pan fried,Prawns,NA,NA,NA,NA,Garlic,Olive,Herbs,NA,NA,NA,NA,No,No,Garlic & Herbs,2

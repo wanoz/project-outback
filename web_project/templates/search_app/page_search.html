@@ -1,0 +1,189 @@
+{% extends "base.html" %} 
+
+{% block nav_bar %}
+<div class="d-flex justify-content-center">
+    <div class="d-flex flex-row">
+        <div class="p-2">
+            {% if user.is_authenticated %}
+                <a href="{% url 'users:logout' %}" style="padding-right: 10px; color: white;">Logout</a>
+            {% else %}
+                <a href="{% url 'users:page_login' %}" style="padding-right: 10px; color: white;">Login</a>
+            {% endif %}
+        </div>
+        <div class="p-2">
+            <a href="{% url 'contact:page_feedback' %}" style="padding-left: 10px; padding-right: 10px; color: white;">Contact</a>
+        </div>
+        <div class="p-2">
+            <a href="#" style="padding-left: 10px; color: white;">Partner</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+<!-- Change background colour of base html section -->
+{% block b1_css %} 
+bg_lgreen
+{% endblock %}
+
+{% block b2_css %} 
+bg_lgreen
+{% endblock %} 
+
+{% block step1 %}
+<div class="container bg_lgreen medium_top_spacing">
+    <div class="col-12 b_step1_style step1_font center_content">
+        Step 1. Choose ingredients
+    </div>
+</div>
+{% endblock %} 
+
+{% block b1 %}
+<div class="container bg_lgreen">
+    <div class="col-12 b1_style bg_lgreen">
+        <ul class="nav nav-pills nav-pills-step1 nav-justified full_width mb-1" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-meat-tab" data-toggle="pill" href="#pills-meat" role="tab" aria-controls="pills-meat"
+                    aria-selected="true">Meat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-vegetable-tab" data-toggle="pill" href="#pills-vegetable" role="tab" aria-controls="pills-vegetable"
+                    aria-selected="false">Vegetable</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-carbs-tab" data-toggle="pill" href="#pills-carbs" role="tab" aria-controls="pills-carbs" aria-selected="false">Carbs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-dairy-tab" data-toggle="pill" href="#pills-dairy" role="tab" aria-controls="pills-dairy" aria-selected="false">Dairy</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-meat" role="tabpanel" aria-labelledby="pills-meat-tab">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing text-sm-center align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="poultry_btn"># Poultry</button>
+                    </div>
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="redmeat_btn"># Red meat</button>
+                    </div>
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="pork_btn"># Pork</button>
+                    </div>
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="seafood_btn"># Seafood</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-vegetable" role="tabpanel" aria-labelledby="pills-vegetable-tab">
+                Show vegetable categories
+            </div>
+            <div class="tab-pane fade" id="pills-carbs" role="tabpanel" aria-labelledby="pills-carbs-tab">
+                Show carbs categories
+            </div>
+            <div class="tab-pane fade" id="pills-dairy" role="tabpanel" aria-labelledby="pills-dairy-tab">
+                Show dairy categories
+            </div>
+        </div>
+    </div>
+    <p class="large_top_spacing"></p>
+</div>
+{% endblock %}
+
+{% block step2 %}
+<div class="container bg_lgreen">
+    <div class="col-12 b_step1_style step2_font center_content">
+        Step 2. Choose cooking essentials
+    </div>
+</div>
+{% endblock %} 
+
+{% block b2 %}
+<div class="container bg_lgreen">
+    <div class="col-12 b2_style bg_lgreen">
+        <ul class="nav nav-pills nav-pills-step2 nav-justified full_width mb-1" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-method-tab" data-toggle="pill" href="#pills-method" role="tab" aria-controls="pills-method"
+                    aria-selected="true">Method</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-flavour-tab" data-toggle="pill" href="#pills-flavour" role="tab" aria-controls="pills-flavour"
+                    aria-selected="false">Flavour</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-cuisine-tab" data-toggle="pill" href="#pills-cuisine" role="tab" aria-controls="pills-carbs" 
+                    aria-selected="false">Cuisine</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-method" role="tabpanel" aria-labelledby="pills-method-tab">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing text-sm-center align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="baked_btn"># Baked</button>
+                    </div>
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="boiled_btn"># Boiled</button>
+                    </div>
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="braised_btn"># Braised</button>
+                    </div>
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="chargrilled_btn"># Chargrilled</button>
+                    </div>
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="fried_btn"># Fried</button>
+                    </div>
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="grilled_btn"># Grilled</button>
+                    </div>
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="marinated_btn"># Marinated</button>
+                    </div>
+                    <div class="col-sm-6 col-md-3 bg_lgreen small_top_spacing align-self-center">
+                        <button type="button" class="btn btn-custom generic_font button_red_faded" id="stirfried_btn"># Stirfried</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-flavour" role="tabpanel" aria-labelledby="pills-flavour-tab">
+                Show flavour categories
+            </div>
+            <div class="tab-pane fade" id="pills-cuisine" role="tabpanel" aria-labelledby="pills-cuisine-tab">
+                Show cusine categories
+            </div>
+               
+        </div>
+    </div>
+    <p class="large_top_spacing"></p>
+</div>
+{% endblock %}
+
+{% block step3 %}
+<div class="container">
+    <div class="col-12 b_step1_style step3_font center_content">
+        Step 3. What is your budget?
+    </div>
+</div>
+{% endblock %} 
+
+{% block b3 %}
+<div class="col-12 budget_container">
+    <div class="d-flex justify-content-center">
+        <div class="d-flex flex-row">
+            <div class="p-2">
+                <span class="budget_font">$</span>
+                <span class="budget_font" id="budget"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="col-2 col-lg-3"></div>
+<div class="col-8 col-lg-6">
+    <div class="d-flex flex-column">
+        <div class="p-2">
+            <div class="slidecontainer large_top_spacing b3_min_height">
+                <input type="range" min="0" max="50" value="25" class="slider" id="myRange">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-2 col-lg-3"></div>
+{% endblock %} 
